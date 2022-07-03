@@ -52,9 +52,9 @@ create table Category (
 
 create table Product (
     product_id integer not null,
-    product_name varchar(10),
+    product_name varchar(30),
     category_id integer,
-    brand varchar(10),
+    brand varchar(20),
     quantity integer,
     price number(8),
 
