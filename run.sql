@@ -1,5 +1,7 @@
 -- Generate Tables
 @schema.sql
+@alter_key_constraint.sql
+@add_modify_drop.sql
 
 -- Insert Data Into Tables
 @data_customer_order.sql
@@ -8,3 +10,6 @@
 @data_category.sql
 @data_product.sql
 @data_order_details.sql
+
+-- Update Table Values
+@update_delete.sql

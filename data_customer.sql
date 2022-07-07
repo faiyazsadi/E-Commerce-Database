@@ -9,6 +9,8 @@
 --country varchar(10),
 --city varchar(10),
 
+-- describe customer;
+
 insert into customer values(71, 'Kheya', 'Haque', 'Jatrabari', 'kheya@gmail.com', '12345678', '01711111171', 71, 'Bangladesh', 'Dhaka');
 insert into customer values(72, 'Emon', 'Mehedi', 'Bogura', 'emon@gmail.com', '12345678', '01711111172', 72, 'Bangladesh', 'Bogura');
 insert into customer values(73, 'Sadi', 'Faiyaz', 'Khilgaon', 'sadi@gmail.com', '12345678', '01711111173', 73, 'Bangladesh', 'Dhaka');
@@ -20,4 +22,7 @@ insert into customer values(78, 'Alif', 'Khairul', 'Mohakhali', 'alif@gmail.com'
 insert into customer values(79, 'Nafia', 'Hossain', 'Rampura', 'nafia@gmail.com', '12345678', '01711111179', 79, 'Bangladesh', 'Dhaka');
 insert into customer values(80, 'Najib', 'Hasan', 'Rangpur', 'najib@gmail.com', '12345678', '01711111180', 80, 'Bangladesh', 'Rangpur');
 
-select * from customer;
+-- Deleted the following row. ON DELETE CUSCADE from customer_order
+insert into customer values(122, 'Name', 'Name', 'Barishal', 'name@gmail.com', '12345678', '01711111122', 122, 'Bangladesh', 'Barishal');
+
+-- select * from customer;

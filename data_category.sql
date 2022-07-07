@@ -1,5 +1,8 @@
 --category_id integer not null,
 --category_name varchar(10),
+
+-- describe category;
+
 insert into category values(1, 'Books');
 insert into category values(2, 'Tools');
 insert into category values(3, 'Food');
@@ -11,4 +14,4 @@ insert into category values(8, 'Gadgets');
 insert into category values(9, 'Figurine');
 insert into category values(10, 'Cloths');
 
-select * from category;
+-- select * from category;

@@ -2,6 +2,8 @@
 --quantity integer,
 --order_id integer,
 
+-- describe order_details;
+
 insert into order_details values(1, 1, 71);
 insert into order_details values(2, 1, 72);
 insert into order_details values(3, 3, 73);
@@ -13,4 +15,4 @@ insert into order_details values(8, 1, 78);
 insert into order_details values(9, 1, 79);
 insert into order_details values(10, 2, 80);
 
-select * from order_details;
+-- select * from order_details;

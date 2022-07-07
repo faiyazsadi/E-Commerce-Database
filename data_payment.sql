@@ -4,6 +4,8 @@
 --payment_date date,
 --amount number(8),
 
+-- describe payment;
+
 insert into payment values(71, 71, 71, TO_DATE('12-JUN-2022'), 711);
 insert into payment values(72, 72, 72, TO_DATE('13-JUN-2022'), 712);
 insert into payment values(73, 73, 73, TO_DATE('14-JUN-2022'), 713);
@@ -15,4 +17,4 @@ insert into payment values(78, 78, 78, TO_DATE('19-JUN-2022'), 718);
 insert into payment values(79, 79, 79, TO_DATE('20-JUN-2022'), 719);
 insert into payment values(80, 80, 80, TO_DATE('21-JUN-2022'), 720);
 
-select * from payment;
+-- select * from payment;

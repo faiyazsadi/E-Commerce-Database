@@ -1,6 +1,9 @@
 --order_id integer not null,
 --amount number(8),
 --order_date date,
+
+-- describe customer_order;
+
 insert into customer_order values(71, 711, TO_DATE('11-JUN-2022'));
 insert into customer_order values(72, 712, TO_DATE('12-JUN-2022'));
 insert into customer_order values(73, 713, TO_DATE('13-JUN-2022'));
@@ -12,4 +15,7 @@ insert into customer_order values(78, 718, TO_DATE('18-JUN-2022'));
 insert into customer_order values(79, 719, TO_DATE('19-JUN-2022'));
 insert into customer_order values(80, 720, TO_DATE('20-JUN-2022'));
 
-select * from customer_order;
+-- Deletd this row using Delete Command.
+insert into customer_order values(122, 731, TO_DATE('21-JUN-2022'));
+
+-- select * from customer_order;
