@@ -1,3 +1,5 @@
+set sqlblanklines on;
+WHENEVER SQLERROR EXIT FAILURE;
 -- Generate Tables
 @schema.sql
 @alter_key_constraint.sql
@@ -13,3 +15,7 @@
 
 -- Update Table Values
 @update_delete.sql
+
+-- Queries
+@range_search.sql
+@order_by.sql

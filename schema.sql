@@ -1,5 +1,3 @@
-set sqlblanklines on;
-
 drop table Order_Details;
 drop table Product;
 drop table Category;

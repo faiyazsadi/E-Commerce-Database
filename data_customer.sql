@@ -25,4 +25,5 @@ insert into customer values(80, 'Najib', 'Hasan', 'Rangpur', 'najib@gmail.com', 
 -- Deleted the following row. ON DELETE CUSCADE from customer_order
 insert into customer values(122, 'Name', 'Name', 'Barishal', 'name@gmail.com', '12345678', '01711111122', 122, 'Bangladesh', 'Barishal');
 
+
 -- select * from customer;

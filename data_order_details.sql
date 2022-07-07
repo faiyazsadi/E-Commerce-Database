@@ -15,4 +15,5 @@ insert into order_details values(8, 1, 78);
 insert into order_details values(9, 1, 79);
 insert into order_details values(10, 2, 80);
 
+
 -- select * from order_details;
