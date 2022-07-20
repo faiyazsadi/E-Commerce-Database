@@ -10,7 +10,11 @@
 --city varchar(10),
 
 -- describe customer;
-
+insert into customer values(61, 'Mahjabin', 'Oishi', 'Bogura', 'oishi@gmail.com', '12345678', '01711111161', 71, 'Bangladesh', 'Bogura');
+insert into customer values(62, 'Mehedy', 'Hasan', 'Bogura', 'mehedy@gmail.com', '12345678', '01711111161', 72, 'Bangladesh', 'Dhaka');
+insert into customer values(63, 'Mizanur', 'Oishi', 'Bogura', 'asif@gmail.com', '12345678', '01711111161', 73, 'Bangladesh', 'Dhaka');
+insert into customer values(64, 'Ahsan', 'Swassow', 'Bogura', 'swassow@gmail.com', '12345678', '01711111161', 74, 'Bangladesh', 'Jessore');
+insert into customer values(65, 'Pushan', 'Paul', 'Bogura', 'pushan@gmail.com', '12345678', '01711111161', 75, 'Bangladesh', 'Chittagong');
 insert into customer values(71, 'Kheya', 'Haque', 'Jatrabari', 'kheya@gmail.com', '12345678', '01711111171', 71, 'Bangladesh', 'Dhaka');
 insert into customer values(72, 'Emon', 'Mehedi', 'Bogura', 'emon@gmail.com', '12345678', '01711111172', 72, 'Bangladesh', 'Bogura');
 insert into customer values(73, 'Sadi', 'Faiyaz', 'Khilgaon', 'sadi@gmail.com', '12345678', '01711111173', 73, 'Bangladesh', 'Dhaka');

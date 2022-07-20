@@ -35,6 +35,7 @@ create table Payment (
     order_id integer,
     payment_date varchar(10),
     amount number(10) check(amount >= 0 AND amount <= 100000),
+    payment_method varchar(10),
 
     primary key(payment_id),
     foreign key(customer_id) references Customer(customer_id) on delete cascade,
