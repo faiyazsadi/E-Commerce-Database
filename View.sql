@@ -1,3 +1,4 @@
+-- View
 create view user_info as
 select fname, lname
 from customer

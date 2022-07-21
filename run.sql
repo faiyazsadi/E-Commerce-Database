@@ -14,7 +14,7 @@ WHENEVER SQLERROR EXIT FAILURE;
 @data_order_details.sql
 
 -- Update Table Values
---@update_delete.sql
+@update_delete.sql
 
 -- Queries
 --@range_search.sql

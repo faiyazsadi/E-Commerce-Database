@@ -18,6 +18,11 @@ insert into product values(8, 'iPad', 8, 'Apple', 1, 80000);
 insert into product values(9, 'Reindeer Figurine Showpiece', 9, 'LandMark', 1, 800);
 insert into product values(10, 'Shirts', 10, 'Milan', 2, 3000);
 insert into product values(11, 'Notebook', 1, default, 1, 60);
+insert into product values(21, 'Man''s Search for Meaning', 1, 'HarperCollins', 1, 500);
+insert into product values(31, 'Flowers for Algernon', 1, 'HarperCollins', 1, 300);
+insert into product values(41, 'The Sailor Who Fell from Grace with the Sea', 1, 'HarperCollins', 1, 400);
+insert into product values(51, 'Beyond Good & Evil', 1, 'HarperCollins', 1, 350);
+insert into product values(61, 'Bushido', 1, 'HarperCollins', 1, 300);
 
 
 

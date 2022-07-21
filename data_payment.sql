@@ -22,6 +22,6 @@ insert into payment values(81, 61, 72, TO_DATE('21-JUN-2022'), 720, 'Rocket');
 insert into payment values(82, 62, 73, TO_DATE('13-JUN-2022'), 712, 'Nagad');
 insert into payment values(83, 63, 74, TO_DATE('14-JUN-2022'), 713, 'Bkash');
 insert into payment values(84, 64, 74, TO_DATE('15-JUN-2022'), 714, 'Rocket');
-insert into payment values(85, 65, 74, TO_DATE('16-JUN-2022'), 715, 'Nagad');
-insert into payment values(86, 61, 76, TO_DATE('17-JUN-2022'), 716, 'Bkash');
+insert into payment values(85, 65, 74, TO_DATE('16-JUN-2022'), 714, 'Nagad');
+insert into payment values(86, 61, 76, TO_DATE('17-JUN-2022'), 715, 'Bkash');
 -- select * from payment;
